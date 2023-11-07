@@ -12,3 +12,6 @@ Well I sure have! In this notebook I ask various LLMs to analyze the meeting tra
 - Potential action items
 
 I do this by using the [OpenAI REST API](https://platform.openai.com/docs/api-reference/introduction) to call models on a self-hosted [FastChat](https://github.com/lm-sys/FastChat) deployment. I can then easily load a supported LLM from HuggingFace which then makes it available via the API, making comparing and contrasting responses from various LLMs rather smooth.
+
+## Pre-process Text Data
+While working on the meeting transcription analysis notebook, it occurred to me that I could probably feed raw text files to an LLM instead of pre-processing the files "by hand."

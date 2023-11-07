@@ -1,2 +1,3 @@
 *.vtt
 env.yaml
+.ipynb_checkpoints/
