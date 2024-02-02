@@ -1,0 +1,7 @@
+fastchat:
+    base_url: ""
+    api_key: ""
+azure-ai:
+    base_url: ""
+    api_key: ""
+transcript_filename: ""
